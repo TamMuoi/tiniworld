@@ -49,15 +49,38 @@
 					<span class="posted-on">
 						<i class="far  fa-calendar-alt"></i>
 						<span class="flaticon-calendar64 ztl-post-info">
-							 29th Tháng Tám 2019
+							<a class="links" href="#">29th Tháng Tám 2019</a>
 						</span>
 						<i class="fas fa-align-justify"></i>
-						<span>Tin tiNi</span>
+						<a class="links" href="#">Tin tiNi</a>
 					</span>
 				</div>	
 			</div>
-				
+			<nav class="navigation post-navigation">
+			<div class="nav-previous">
+				<i class="fa fa-chevron-left icon-post"></i>
+				<a href="https://tiniworld.com/vi/hao-huc-cho-don-su-xuat-hien-tiniworld-thu-50-tai-crescent-mall/" rel="prev">HÁO HỨC CHỜ ĐÓN SỰ XUẤT HIỆN TINIWORLD THỨ 50 TẠI CRESCENT MALL</a>
+			</div>
+			<div class="nav-next">
+				<a href="https://tiniworld.com/vi/check-in-rinh-qua-ngay-trung-thu-con-gi-tuyet-hon/" rel="next">Check in rinh quà ngay trung thu.<br/> Còn gì tuyệt hơn.</a>
+				<i class="fa fa-chevron-right"></i>
+			</div>
+		</nav>
 		</div>
+	<!-- 	<nav class="navigation post-navigation">
+			<div class="previous">
+				<div class="nav-previous">
+					<i class="fa fa-chevron-left icon-post"></i>
+					<a href="">HÀO HỨC CHỜ ĐÓN SỰ <br/> XUẤT HIỆN TINIWORLD THỨ 50 TẠI CRESCENT MALL</a>
+				</div>
+			</div>
+			<div class="nav-next">
+				<a href="https://tiniworld.com/vi/check-in-rinh-qua-ngay-trung-thu-con-gi-tuyet-hon/" rel="next">Check in rinh quà ngay trung thu.<br/> Còn gì tuyệt hơn.</a>
+				<span class="meta-nav"></span>
+				<i class="fa fa-chevron-right"></i>
+			</div>
+		</nav> -->
+
 	</div>
 </div>
 @endsection

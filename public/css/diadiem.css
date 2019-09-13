@@ -312,6 +312,15 @@ input.btn.btn-full.btn-diadiem:hover{
 	margin-top: 40px;
     margin-left: 150px !important;
 }
+.links{
+	color: #333;
+	font-size: 18px;
+	text-decoration: none;
+}
+.links:hover{
+	text-decoration: none;
+	color: #333;
+}
 .far{
 	margin-right: 5px;
 	color: #93c524;
@@ -322,4 +331,60 @@ input.btn.btn-full.btn-diadiem:hover{
 	margin-left: 25px;
 	margin-right:5px;
 	color: #93c524;
+}
+.fa-chevron-left:before {
+    content: "\f053";
+    color: #93c524;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.nav-previous {
+    width: 39%;
+    border-bottom:1px solid #e8e8e8;
+    border-right:1px solid #e8e8e8;
+    overflow: hidden;
+    height: 40px;
+    margin:60px 45px 0;
+    border-bottom-right-radius: 5px;
+  	float: left;
+  	line-height: 40px;
+}
+.nav-previous a{
+	color: #704f32;
+}
+.nav-previous a:hover{
+	text-decoration: none;
+	color: #704f32;
+}
+.fa-chevron-right:before {
+    content: "\f054";
+    margin-left: 25px;
+    color: #93c524;
+    margin-right: 25px;    
+}
+.nav-next{
+	text-align: right;
+	line-height: 40px;
+	float: right;
+    width: 40%;
+    border-bottom:1px solid #e8e8e8;
+    border-left:1px solid #e8e8e8;
+    overflow: hidden;
+    height: 40px;
+    margin: 60px 39px 0px 0px;
+    border-bottom-right-radius: 5px;
+	position: relative;
+}
+.nav-next a{
+	color: #704f32;
+}
+.nav-next a:hover{
+	text-decoration: none;
+	color: #704f32;
+}
+.post-navigation .nav-next .fa {
+    position: absolute;
+    right: 25px;
+    top: 6px;
+    line-height: 2;
 }
