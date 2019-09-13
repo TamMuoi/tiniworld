@@ -19,3 +19,10 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('trang-chu');
 })->name('trang-chu');
+Route::get('/diadiem', function () {
+    return view('diadiem.diadiem');
+});
+Route::get('/chitietleft', function () {
+    return view('diadiem.trangchitietleft');
+});
+
