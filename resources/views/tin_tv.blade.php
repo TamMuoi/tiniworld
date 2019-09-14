@@ -86,7 +86,9 @@
             <div class="row">
                 <div class="col-md-6">
                         <div class="vc_row wpb_row vc_row-fluid">
-                            <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                     
                                     <figure class="wpb_wrapper vc_figure">
@@ -97,11 +99,14 @@
                             <div class="vc_btn3-container vc_btn3-center">
                                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-pink" href="https://www.youtube.com/watch?list=PLcibHwwxR7SZ_V6fzTKIg6Nu6xXOqJDZR&amp;v=Vick_mfRGDo" title="video thomas" style="font-size: 16px;padding-right: 20px;
                                 padding-bottom: 20px;
-                                padding-top: 11px; border-radius: 5px;" target="_blank"><i class="vc_btn3-icon fa fa-youtube" ></i> Xem toàn bộ video</a></div>
+                                padding-top: 11px; border-radius: 5px;" target="_blank">
+                                <i class="vc_btn3-icon fa fa-youtube" ></i> Xem toàn bộ video</a></div>
                             </div></div></div>
                 </div>
                 </div>
-                <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element ">
                             <div class="wpb_wrapper">
                                 <p><iframe src="//www.youtube.com/embed/Vick_mfRGDo?list=PLcibHwwxR7SZ_V6fzTKIg6Nu6xXOqJDZR" width="507" height="380" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
@@ -118,7 +123,9 @@
             <div class="row">
                 <div class="col-md-6">
                         <div class="vc_row wpb_row vc_row-fluid">
-                            <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                     
                                     <figure class="wpb_wrapper vc_figure">
@@ -129,11 +136,14 @@
                             <div class="vc_btn3-container vc_btn3-center">
                                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-pink" href="https://www.youtube.com/watch?list=PLcibHwwxR7SZ_V6fzTKIg6Nu6xXOqJDZR&amp;v=Vick_mfRGDo" title="video thomas" style="font-size: 16px;padding-right: 20px;
                                 padding-bottom: 20px;
-                                padding-top: 11px; border-radius: 5px;" target="_blank"><i class="vc_btn3-icon fa fa-youtube" ></i> Xem toàn bộ video</a></div>
+                                padding-top: 11px; border-radius: 5px;" target="_blank">
+                                <i class="vc_btn3-icon fa fa-youtube" ></i> Xem toàn bộ video</a></div>
                             </div></div></div>
                 </div>
                 </div>
-                <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+                <div class="wpb_column vc_column_container vc_col-sm-6">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element ">
                             <div class="wpb_wrapper">
                                 <p><iframe width="560" height="315" src="https://www.youtube.com/embed/wMxYVhHwKgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
@@ -150,7 +160,9 @@
             <div class="row">
                 <div class="col-md-6">
                         <div class="vc_row wpb_row vc_row-fluid">
-                            <div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
                                 <div class="wpb_single_image wpb_content_element vc_align_left">
                                     
                                     <figure class="wpb_wrapper vc_figure">
@@ -161,7 +173,8 @@
                             <div class="vc_btn3-container vc_btn3-center">
                                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-icon-left vc_btn3-color-pink" href="https://www.youtube.com/watch?list=PLcibHwwxR7SZ_V6fzTKIg6Nu6xXOqJDZR&amp;v=Vick_mfRGDo" title="video thomas" style="font-size: 16px;padding-right: 20px;
                                 padding-bottom: 20px;
-                                padding-top: 11px; border-radius: 5px;" target="_blank"><i class="vc_btn3-icon fa fa-youtube" ></i> Xem toàn bộ video</a></div>
+                                padding-top: 11px; border-radius: 5px;" target="_blank">
+                                <i class="vc_btn3-icon fa fa-youtube" ></i> Xem toàn bộ video</a></div>
                             </div></div></div>
                 </div>
                 </div>
@@ -185,7 +198,8 @@
             <div class="wpb_text_column wpb_content_element " style="    padding-top: 119px;
             ">
                 <div class="wpb_wrapper">
-                    <h3 style="text-align: justify;"><span style="color: #333333;">Hãy bấm Subscribe ngay hôm nay để không bỏ lỡ bất cứ video nào của tiNi TV!</span></h3>
+                    <h3 style="text-align: justify;">
+                        <span style="color: #333333;">Hãy bấm Subscribe ngay hôm nay để không bỏ lỡ bất cứ video nào của tiNi TV!</span></h3>
         
                 </div>
             </div>
