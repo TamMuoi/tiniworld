@@ -16,6 +16,13 @@ Route::get('/', function () {
 });
 
 
-Route::get('/', function () {
-    return view('trang-chu');
-})->name('trang-chu');
+
+Route::get('sinh_nhat', function () {
+    return view('sinh_nhat');
+})->name('sinh_nhat');
+Route::get('tin_tv', function () {
+    return view('tin_tv');
+})->name('tin_tv');
+Route::get('tin_tini', function () {
+    return view('tin_tini');
+})->name('tin_tini');
