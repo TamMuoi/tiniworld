@@ -53,22 +53,21 @@
                                                 
                                                     }
                                                     * {
-  box-sizing: border-box;
-}
+                                                        box-sizing: border-box;
+                                                        }
 
-.zoom img{
-  padding: 50px;
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
+                                                        .zoom img{
+                                                        padding: 50px;
+                                                        transition: transform .2s;
+                                                        margin: 0 auto;
+                                                        }
 
-.zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-}
+                                                        .zoom:hover {
+                                                        -ms-transform: scale(1.5); /* IE 9 */
+                                                        -webkit-transform: scale(1.5); /* Safari 3-8 */
+                                                        transform: scale(1.5); 
+                                                        }
+                                                        a.ex2:hover, a.ex2:active {font-size: 150%;}
                                                 </style>
                                                 <link rel="stylesheet" id="wp-color-picker-css" href="#" type="text/css" media="all">
                                                 <link rel="stylesheet" id="admin_custom-css" href="#" type="text/css" media="all">
@@ -407,7 +406,8 @@
             </div>
             <div class="vc_pageable-load-more-btn" data-vc-grid-load-more-btn="true">
                 <div class="vc_btn3-container  vc_grid-btn-load_more vc_btn3-inline">
-                    <a href="#" class="vc_general vc_btn3  vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-blue ">Load more</a>
+                    <a href="#" class="vc_general vc_btn3 ex2  vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-flat vc_btn3-color-blue ">Load more</a>
+                  
                 </div>
             </div>
         </div>                                    
