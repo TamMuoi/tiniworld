@@ -19,7 +19,8 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <h1 class="custom-header-title dark-title " style="color:#1e73be;">
-                        TINI TV               </h1>
+                        TINI TV              
+                     </h1>
                 </div>
             </div>
         </div>
@@ -31,7 +32,6 @@
                 <div class="wpb_wrapper">
                     <h1 style="text-align: center;">
                         <span style="color: #3366ff;font-size: 32px">tiNi TV – Kênh Youtube hoạt hình mới toanh dành cho bé</span></h1>
-        
                 </div>
             </div>
         </div></div></div>
@@ -62,7 +62,7 @@
                 <div class="vc_single_image-wrapper   vc_box_border_grey" style="    padding-top: 50px;">
                     <img width="1050px" height="370px" src="https://tiniworld.com/wp-content/uploads/2017/02/banner-tini-tv.png" class="vc_single_image-img attachment-full" alt="" srcset="https://tiniworld.com/wp-content/uploads/2017/02/banner-tini-tv.png 1326w, https://tiniworld.com/wp-content/uploads/2017/02/banner-tini-tv-300x111.png 300w, https://tiniworld.com/wp-content/uploads/2017/02/banner-tini-tv-768x284.png 768w, https://tiniworld.com/wp-content/uploads/2017/02/banner-tini-tv-1024x379.png 1024w, https://tiniworld.com/wp-content/uploads/2017/02/banner-tini-tv-500x185.png 500w" sizes="(max-width: 1326px) 100vw, 1326px" data-no-retina=""></div>
        </div>
-       <div class="container" style="    padding-top: 50px;">
+       <div class="container" style="padding-top: 50px;">
            <div class="col-md-12">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner ">
