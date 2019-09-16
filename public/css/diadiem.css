@@ -307,10 +307,13 @@ input.btn.btn-full.btn-diadiem:hover{
 	color: #704f32;
 	text-decoration: underline;
 }
+.date{
+	margin-left: 200px;
+	margin-bottom: 30px;
+}
 .post{
 	border-bottom:1px solid #eee;
 	margin-top: 40px;
-    margin-left: 150px !important;
 }
 .links{
 	color: #333;
@@ -321,13 +324,13 @@ input.btn.btn-full.btn-diadiem:hover{
 	text-decoration: none;
 	color: #333;
 }
-.far{
+.fa-calendar-alt{
 	margin-right: 5px;
 	color: #93c524;
 	font-size: 20px;
 }
 
-.fas{
+.fa-align-justify{
 	margin-left: 25px;
 	margin-right:5px;
 	color: #93c524;
@@ -339,6 +342,7 @@ input.btn.btn-full.btn-diadiem:hover{
     margin-right: 25px;
 }
 .nav-previous {
+	    margin-bottom: 30px !important;
     width: 39%;
     border-bottom:1px solid #e8e8e8;
     border-right:1px solid #e8e8e8;
@@ -360,10 +364,12 @@ input.btn.btn-full.btn-diadiem:hover{
     content: "\f054";
     margin-left: 25px;
     color: #93c524;
-    margin-right: 25px;    
+      
 }
 .nav-next{
-	text-align: right;
+
+	padding-left: 25px;
+	text-align: left;
 	line-height: 40px;
 	float: right;
     width: 40%;
@@ -387,4 +393,91 @@ input.btn.btn-full.btn-diadiem:hover{
     right: 25px;
     top: 6px;
     line-height: 2;
+}
+/*css Khu vui chơi*/
+.khuvuichoi{
+	margin-left: 40px !important;
+}
+.img-gocvuichoi{
+	padding-top: 100px;
+	padding-bottom:40px;
+	max-width:100% ;
+	margin: 0 auto;
+	display: block;
+}
+.img-icon{
+	float: left !important;
+}.icon{
+	margin-left: 50px;
+}
+.img-icon-right{
+	 word-spacing:5px;
+	float: right;
+    width: 73%;
+    color: #555555;
+    line-height: 1.5rem;
+}
+/*ssss*/
+.thongtin{
+	margin-top: 100px;
+	margin-left: 40px;
+}
+.col-thongtin {
+    width: 20%;
+    margin-left: 50px;
+}
+.time{
+  background-color:#fff;
+  color:#fff;
+  max-width:700px;
+  margin: 0 auto 0;
+  text-align: center;
+  display: table;
+}
+.time-coso{
+	 display: table-cell;
+    color: #fff;
+    font-size: 50px;
+    background-color: #9dc639;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+.time-nhanvien{
+	 display: table-cell;
+    color: #fff;
+    font-size: 50px;
+    background-color: #e75b98;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+.time-doanhso{
+	display: table-cell;
+    color: #fff;
+    font-size: 50px;
+    background-color:#22bded;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+.time-sukien{
+	display: table-cell;
+    color: #fff;
+    font-size: 50px;
+    background-color:#f7d500;
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+}
+.title-thongtin {
+    word-spacing:2px;
 }
