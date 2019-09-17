@@ -58,15 +58,15 @@
                     
                             </div>
                         </div>
-                    </div></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
                     <div  data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1477280445456 vc_row-has-fill" style="position: relative; left: -252.6px; box-sizing: border-box; width: 1519px; padding-left: 252.6px; padding-right: 252.4px; ">
                         <div class="list-image-party wpb_column vc_column_container vc_col-sm-6" >
-                            <div class="vc_column-inner vc_custom_1504061131806" style="
-                            padding-left: 0px;
-                        ">
+                            <div class="vc_column-inner vc_custom_1504061131806" style="   padding-left: 0px;  ">
                                 <div class="wpb_wrapper">
                         <div class="wpb_single_image wpb_content_element vc_align_center">
-                            
                             <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper vc_box_border  vc_box_border_grey col-md-3">
                                     <img width="204px" height="153px" src="https://tiniworld.com/wp-content/uploads/2016/10/tiec-sinh-nhat-cho-be-theo-chu-de-juno-1.jpg" class="vc_single_image-img attachment-full" alt="tổ chức sinh nhật cho bé tại tiNiWorld" data-no-retina=""></div>
@@ -162,11 +162,19 @@
                     </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1560156342286 vc_row-has-fill" style="position: relative; left: -252.6px; box-sizing: border-box; width: 1519px; padding-left: 252.6px; padding-right: 252.4px;"><div class="justify wpb_column vc_column_container vc_col-sm-12" id="red-color"><div class="vc_column-inner "><div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element  vc_custom_1560150643264">
                             <div class="wpb_wrapper">
-                                <p><span style="color: #ff00ff; font-size: 28px;"><strong>Đăng ký đặt tiệc</strong></span></p>
-                    <p style="font-size: 20px">Hãy dành tặng cho con một ngày sinh nhật thật ý nghĩa tại thiên đường trẻ thơ tiNiWorld nhé bố mẹ! Nhân viên tiNiWorld hân hoan được phục vụ bố mẹ và bé.</p>
-                    <p style="font-size: 20px">Liên hệ ngay <strong>Hotline</strong> của trung tâm muốn đặt tiệc hoặc điền vào form đăng ký để nhận tư vấn chi tiết!</p>
-                    <p style="font-size: 20px"><strong>Tìm kiếm số điện thoại trung tâm tại <a href="https://tiniworld.com/vi/dia-diem-khu-vui-choi-tiniworld/">đây</a></strong></p>
-                    
+                                <p>
+                                    <span style="color: #ff00ff; font-size: 28px;">
+                                    <strong>Đăng ký đặt tiệc</strong>
+                                    </span>
+                                </p>
+                                <p style="font-size: 20px">Hãy dành tặng cho con một ngày sinh nhật thật ý nghĩa tại thiên đường trẻ thơ tiNiWorld nhé bố mẹ! Nhân viên tiNiWorld hân hoan được phục vụ bố mẹ và bé.</p>
+                                <p style="font-size: 20px">Liên hệ ngay <strong>Hotline</strong> của trung tâm muốn đặt tiệc hoặc điền vào form đăng ký để nhận tư vấn chi tiết!</p>
+                                <p style="font-size: 20px">
+                                    <strong>Tìm kiếm số điện thoại trung tâm tại 
+                                        <a href="https://tiniworld.com/vi/dia-diem-khu-vui-choi-tiniworld/">đây</a>
+                                    </strong>
+                                </p>
+                                
                             </div>
                         </div>
                     
