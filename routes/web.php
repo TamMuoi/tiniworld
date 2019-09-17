@@ -19,6 +19,7 @@ Route::get('/', function () {
     return view('trang-chu');
 })->name('trang-chu');
 
+
 Route::get('/bantin', function () {
     return view('vulon.vu');
 });
@@ -39,6 +40,14 @@ Route::get('/vetini', function () {
 
 Route::get('/ve', function () {
     return view('vulon.ve');
+});
+
+=======
+Route::get('khuyen-mai', function () {
+    return view('khuyen-mai');
+});
+Route::get('chiTiet-km', function () {
+    return view('chiTiet-km');
 });
 
 Route::get('sinh_nhat', function () {
