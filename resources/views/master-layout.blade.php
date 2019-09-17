@@ -21,6 +21,9 @@
 
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/tin_tini.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/tin.css') }}">
+    
     
 
 

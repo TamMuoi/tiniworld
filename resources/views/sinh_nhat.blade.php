@@ -1,3 +1,8 @@
+@extends('master-layout')
+@section('title')
+	SINH NHẬT
+@endsection
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,21 +105,22 @@
                     <p style=" font-size: 20px;">Hãy để tiNiWorld giúp bố mẹ trang trí cho bé một tiệc sinh nhật không chỉ lung linh và ấn tượng, mà còn đúng theo tính cách và sở thích của bé. Gọi hoặc điền thông tin ngay cho chúng tôi để đặt tiệc nhé!</p>
                     <div class="list-icon">
                     <ul>
-                    <li style=" font-size: 16px;"><i class="fa fa-check-square-o"></i>
-                         <b >Chủ đề tiệc dành cho bé trai: </b> lấy màu xanh của nhân vật juNo làm tone màu chủ đạo, tiNiWorld thiết kế tiệc sinh nhật cho các bé trai theo phong cách mạnh mẽ, năng động, với cách bài trí toát lên sự tươi vui, khỏe khoắn và giàu tốc độ, phù hợp với tính cách của các bé trai.</li>
-                    <li style=" font-size: 16px;"><i class="fa fa-check-square-o"></i>
-                         <b>Chủ đề tiệc dành cho bé gái:</b> sử dụng màu chủ đạo là màu hồng của teRa, phụ huynh và bé có thể lựa chọn chủ đề này để bữa tiệc mang đậm sắc màu cổ tích, mộng mơ, với những cô cậu búp bê xinh xắn, đáng yêu, vừa vui nhộn mà lại không thiếu tính nghệ thuật.</li>
+                    <li style=" font-size: 16px;">
+                        <i class="fa fa-check-square-o"></i>
+                         <b >Chủ đề tiệc dành cho bé trai: </b> 
+                         lấy màu xanh của nhân vật juNo làm tone màu chủ đạo, tiNiWorld thiết kế tiệc sinh nhật cho các bé trai theo phong cách mạnh mẽ, năng động, với cách bài trí toát lên sự tươi vui, khỏe khoắn và giàu tốc độ, phù hợp với tính cách của các bé trai.</li>
+                    <li style=" font-size: 16px;">
+                        <i class="fa fa-check-square-o"></i>
+                         <b>Chủ đề tiệc dành cho bé gái:</b>
+                          sử dụng màu chủ đạo là màu hồng của teRa, phụ huynh và bé có thể lựa chọn chủ đề này để bữa tiệc mang đậm sắc màu cổ tích, mộng mơ, với những cô cậu búp bê xinh xắn, đáng yêu, vừa vui nhộn mà lại không thiếu tính nghệ thuật.</li>
                     </ul>
                     </div>
-                    
                             </div>
                         </div>
-                    </div></div></div></div> 
-
-
-
-
-
+                    </div>
+                </div>
+            </div>
+        </div> 
                     <div class="vc_row-full-width vc_clearfix" ></div>
                     <div class="vc_row wpb_row vc_row-fluid vc_custom_1560156279731">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -148,18 +154,19 @@
                     <li style="font-size: 20px">MC hoạt náo game và biệt đội tiNi cùng chương trình tiNi Dancing vui nhộn.</li>
                     </ul>
                     </div>
-                    
                             </div>
                         </div>
-                    
                         <div class="wpb_single_image wpb_content_element vc_align_left">
-                            
                             <figure class="wpb_wrapper vc_figure">
                                 <div class="vc_single_image-wrapper   vc_box_border_grey">
                                     <img width="843" height="596" src="https://tiniworld.com/wp-content/uploads/2019/06/BirthdaytiNi_Flyer_A5_SX-02.jpg" class="vc_single_image-img attachment-full" alt="" srcset="https://tiniworld.com/wp-content/uploads/2019/06/BirthdaytiNi_Flyer_A5_SX-02.jpg 843w, https://tiniworld.com/wp-content/uploads/2019/06/BirthdaytiNi_Flyer_A5_SX-02-300x212.jpg 300w, https://tiniworld.com/wp-content/uploads/2019/06/BirthdaytiNi_Flyer_A5_SX-02-768x543.jpg 768w" sizes="(max-width: 843px) 100vw, 843px" data-no-retina=""></div>
                             </figure>
                         </div>
-                    </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1560156342286 vc_row-has-fill" style="position: relative; left: -252.6px; box-sizing: border-box; width: 1519px; padding-left: 252.6px; padding-right: 252.4px;"><div class="justify wpb_column vc_column_container vc_col-sm-12" id="red-color"><div class="vc_column-inner "><div class="wpb_wrapper">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1560156342286 vc_row-has-fill" style="position: relative; left: -252.6px; box-sizing: border-box; width: 1519px; padding-left: 252.6px; padding-right: 252.4px;"><div class="justify wpb_column vc_column_container vc_col-sm-12" id="red-color"><div class="vc_column-inner "><div class="wpb_wrapper">
                         <div class="wpb_text_column wpb_content_element  vc_custom_1560150643264">
                             <div class="wpb_wrapper">
                                 <p>
@@ -183,23 +190,20 @@
                                 
                             </div>
                         </div>
-                    </div></div></div></div>  
-                        </div>
-                    </article>
+                    </div>
+                </div>
             </div>
-        
-             
+        </div>  
+    </div>
+</article>
+</div>
                 <img src="https://tiniworld.com/wp-content/uploads/2017/08/Birthday-Cake.jpg" style="width: 1909px;height: 820px; 
-                
                 position: absolute;">
                 <div class="vc_row-full-width vc_clearfix"></div>
-                                
                     <div id="book-form" data-vc-full-width="true" data-vc-full-width-init="true" data-vc-parallax="1.8" data-vc-parallax-image="https://tiniworld.com/wp-content/uploads/2017/08/Birthday-Cake.jpg" class="vc_row wpb_row vc_row-fluid vc_custom_1548061688652 vc_row-has-fill vc_row-o-content-middle vc_row-flex vc_general vc_parallax vc_parallax-content-moving nhanh" style=" left: -252.6px; box-sizing: border-box; width: 1519px; padding-left: 252.6px; padding-right: 252.4px; z-index: 9999;
                     position: absolute;">
                     <div class="wpb_column vc_column_container vc_col-sm-8" style="    padding-left: 126px; ">
-               
-                
-                        <div class="vc_column-inner " style="     padding-top: 128px; ">
+                        <div class="vc_column-inner " style=" padding-top: 128px; ">
                             <div class="wpb_wrapper">
                                 <div role="form" class="wpcf7" id="wpcf7-f5745-p5746-o1" lang="en-US" dir="ltr">
                     <div class="screen-reader-response"></div>
@@ -214,10 +218,7 @@
                     </div>
                     <div class="container">
                     <div class="form-wrap">
-                    <div class="title-form" style="
-                        color: #fff; ">
-                      
-                    
+                    <div class="title-form" style="color: #fff; ">
                       <div class="container">
                             <div class="row">
                                 <div class="col-md-8">
@@ -225,8 +226,6 @@
                     </div>
                     <div class="col-md-5" style="padding-left:0;">
                     <p style="font-size: 20px;  color: black;  "> <b>Tên phụ huynh</b></p>
-              
-                  
                     <p><span class="wpcf7-form-control-wrap your-name">
                         <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span></p>
                     <p style="font-size: 20px;  color: black;  "> <b>Email</b></p>
@@ -242,6 +241,7 @@
                     <p><span class="wpcf7-form-control-wrap date-490">
                         <input type="date" name="date-490" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date" aria-required="true" aria-invalid="false" style="font-size: 20px"></span></p>
                     </div>
+                    
                     <div class="col-md-7" style="padding-left:0;padding-right:0;">
                     <p style="font-size: 20px;  color: black;  ">
                          <b>Địa điểm muốn tổ chức</b></p>
@@ -313,7 +313,8 @@
                             <div class="wpb_text_column wpb_content_element ">
                                 <div class="wpb_wrapper">
                                     <ul class="header-txt-list">
-                        <li><i class="fa fa-check-circle-o"></i><br>
+                        <li><i class="fa fa-check-circle-o">
+                            </i><br>
                         <strong>Vui chơi miễn phí<br>
                         </strong>Vào ngày sinh nhật, tất cả các khách tham dự tiệc đều được vui chơi miễn phí không giới hạn tại tiNiWorld</li>
                         <li><i class="fa fa-birthday-cake"></i><br>
@@ -334,4 +335,5 @@
 
       
 </body>
+@endsection
                    
