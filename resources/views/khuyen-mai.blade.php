@@ -1,16 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="{{asset('')}}layout/js/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="{{asset('css/khuyen-mai.css')}}">
-</head>
+@extends('master-layout')
+@section('title')
+	Khuyến mại
+@endsection
+@section('content')
+
 <body>
     <div class="page-top clearfix custom-header ">
         <div class="container header-image">
@@ -50,7 +43,22 @@
                                                         vertical-align: -0.1em;
                                                         background: none;
                                                         padding: 0;
-                                                    }
+                                                          }
+                                                          * {
+                                                        box-sizing: border-box;
+                                                        }
+
+                                                        .zoom img{
+                                                        padding: 50px;
+                                                        transition: transform .2s;
+                                                        margin: 0 auto;
+                                                        }
+                                                        .zoom:hover {
+                                                        -ms-transform: scale(1.5); /* IE 9 */
+                                                        -webkit-transform: scale(1.5); /* Safari 3-8 */
+                                                        transform: scale(1.5); 
+                                                        }
+                                                        a.ex2:hover, a.ex2:active {font-size: 150%;}
                                                 </style>
                                                 <link rel="stylesheet" id="wp-color-picker-css" href="#" type="text/css" media="all">
                                                 <link rel="stylesheet" id="admin_custom-css" href="#" type="text/css" media="all">
@@ -61,7 +69,7 @@
                                                                 <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                                     <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                                         <a href="#" title="Trung thu rộn ràng cùng bánh trung thu tiNi" class="vc_gitem-link vc-zone-link"></a>	
-                                                                        <img src="https://tiniworld.com/wp-content/uploads/2019/08/Mooncake2019_Digital_Thumbnailarticle_480px-x-360px.png" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                                        <figure><img src="https://tiniworld.com/wp-content/uploads/2019/08/Mooncake2019_Digital_Thumbnailarticle_480px-x-360px.png" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt="">	</figure>
                                                                         <div class="vc_gitem-zone-mini">
                                                                     </div>
                                                                 </div>
@@ -100,7 +108,7 @@
                                                     <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                         <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                             <a href="#" title="COMBO THẢ GA, VUI HÈ CỰC ĐÃ" class="vc_gitem-link vc-zone-link"></a>	
-                                                            <img src="https://tiniworld.com/wp-content/uploads/2019/06/CombotiNiTOY_69k_digital_Thumbnailarticle.png" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                            <figure> <img src="https://tiniworld.com/wp-content/uploads/2019/06/CombotiNiTOY_69k_digital_Thumbnailarticle.png" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt="">	</figure>
                                                         </div>
                                                         <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                             <a href="#" title="COMBO THẢ GA, VUI HÈ CỰC ĐÃ" class="vc_gitem-link vc-zone-link"></a>		
@@ -136,7 +144,7 @@
                                                     <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                         <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                             <a href="#" title="SINH NHẬT VUI HẾT Ý, CHỈ CÓ TẠI TINI" class="vc_gitem-link vc-zone-link"></a>	
-                                                            <img src="https://tiniworld.com/wp-content/uploads/2019/06/Thumbnail-article-480-x-360px-GOI-BD-89K-NEW-290519.png" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                            <figure>  <img src="https://tiniworld.com/wp-content/uploads/2019/06/Thumbnail-article-480-x-360px-GOI-BD-89K-NEW-290519.png" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt="">	</figure>
                                                         </div>
                                                         <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                             <a href="#" title="SINH NHẬT VUI HẾT Ý, CHỈ CÓ TẠI TINI" class="vc_gitem-link vc-zone-link"></a>		
@@ -172,7 +180,7 @@
                                                     <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                         <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link" >
                                                             <a href="#" title="Miễn phí vé cổng từ thứ 2-thứ 5 cho hạng thẻ Diamond" class="vc_gitem-link vc-zone-link"></a>	
-                                                            <img src="http://tiniworld.com/wp-content/uploads/2019/06/Thumbnail-article-480x360px-MIEN-PHI-VE-CONG-T2-T5-HANG-THE-DIAMOND-040619.png" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                            <figure>  <img src="http://tiniworld.com/wp-content/uploads/2019/06/Thumbnail-article-480x360px-MIEN-PHI-VE-CONG-T2-T5-HANG-THE-DIAMOND-040619.png" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt=""></figure>	
                                                         </div>
                                                         <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                             <a href="#" title="Miễn phí vé cổng từ thứ 2-thứ 5 cho hạng thẻ Diamond" class="vc_gitem-link vc-zone-link"></a>		
@@ -207,7 +215,7 @@
                                                     <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                         <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                             <a href="#" title="tiNi là tuổi thơ – sự kiện khởi đầu hè sôi động" class="vc_gitem-link vc-zone-link"></a>	
-                                                            <img src="http://tiniworld.com/wp-content/uploads/2019/05/Thumbnail-article-480-x-360.jpg" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                            <figure>  <img src="http://tiniworld.com/wp-content/uploads/2019/05/Thumbnail-article-480-x-360.jpg" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt="">	</figure>
                                                         </div>
                                                         <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                             <a href="#" title="tiNi là tuổi thơ – sự kiện khởi đầu hè sôi động" class="vc_gitem-link vc-zone-link"></a>		
@@ -242,7 +250,7 @@
                                                     <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                         <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                             <a href="#" title="VUI CÙNG GIÁ MỚI, BÉ THỎA THÍCH CHƠI" class="vc_gitem-link vc-zone-link"></a>	
-                                                            <img src="http://tiniworld.com/wp-content/uploads/2019/05/Thumbnail-article-TW-GIA-MOI-480x360px-040419.png" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                            <figure> <img src="http://tiniworld.com/wp-content/uploads/2019/05/Thumbnail-article-TW-GIA-MOI-480x360px-040419.png" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt=""></figure>	
                                                         </div>
                                                         <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                             <a href="ht#" title="VUI CÙNG GIÁ MỚI, BÉ THỎA THÍCH CHƠI" class="vc_gitem-link vc-zone-link"></a>		
@@ -277,7 +285,7 @@
                                                         <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                             <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                                 <a href="http://tiniworld.com/vi/n-kid-group-lan-dau-ra-mat-thuong-hieu-tinitoy-ban-do-choi-cua-tuoi-tho-viet/" title="N KID Group lần đầu ra mắt thương hiệu tiNiToy – Bạn đồ chơi của tuổi thơ Việt" class="vc_gitem-link vc-zone-link"></a>	
-                                                                <img src="http://tiniworld.com/wp-content/uploads/2019/03/IMG_4384_thumbnail-480x360.jpg" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                                <figure> <img src="http://tiniworld.com/wp-content/uploads/2019/03/IMG_4384_thumbnail-480x360.jpg" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt="">	</figure>
                                                             </div>
                                                             <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                                 <a href="#" title="N KID Group lần đầu ra mắt thương hiệu tiNiToy – Bạn đồ chơi của tuổi thơ Việt" class="vc_gitem-link vc-zone-link"></a>		
@@ -312,7 +320,7 @@
                                                         <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                             <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                                 <a href="#" title="Tải app tiNi, vào cổng miễn phí!" class="vc_gitem-link vc-zone-link"></a>	
-                                                                <img src="http://tiniworld.com/wp-content/uploads/2019/03/Thumbnail-article-480-x-360-px-01.jpg" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                                <figure> <img src="http://tiniworld.com/wp-content/uploads/2019/03/Thumbnail-article-480-x-360-px-01.jpg" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt=""></figure>	
                                                             </div>
                                                             <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                                 <a href="#" title="Tải app tiNi, vào cổng miễn phí!" class="vc_gitem-link vc-zone-link"></a>		
@@ -347,7 +355,7 @@
                                                         <div class="vc_gitem-animated-block  vc_gitem-animate vc_gitem-animate-scaleRotateIn" data-vc-animation="scaleRotateIn">
                                                             <div class="vc_gitem-zone vc_gitem-zone-a vc-gitem-zone-height-mode-auto vc-gitem-zone-height-mode-auto-4-3 vc_gitem-is-link">
                                                                 <a href="#" title="THÀNH VIÊN VÀNG, NHẬN NGÀN ƯU ĐÃI" class="vc_gitem-link vc-zone-link"></a>	
-                                                                <img src="http://tiniworld.com/wp-content/uploads/2019/02/CRM_GOLD_Digital_Thumbnail-article_480px-x-360px.png" width="315px" height="236px" class="vc_gitem-zone-img" alt="">	
+                                                                <figure> <img src="http://tiniworld.com/wp-content/uploads/2019/02/CRM_GOLD_Digital_Thumbnail-article_480px-x-360px.png" width="315px" height="236px" class="vc_gitem-zone-img zoom" alt="">	</figure>
                                                             </div>
                                                             <div class="vc_gitem-zone vc_gitem-zone-b vc_custom_1419333125675 vc-gitem-zone-height-mode-auto vc_gitem-is-link">
                                                                 <a href="#" title="THÀNH VIÊN VÀNG, NHẬN NGÀN ƯU ĐÃI" class="vc_gitem-link vc-zone-link"></a>		
@@ -394,4 +402,5 @@
         </div>                                    
     </main>
 </body>
+@endsection
 </html>
