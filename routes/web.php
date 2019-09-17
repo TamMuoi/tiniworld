@@ -19,6 +19,14 @@ Route::get('/', function () {
     return view('trang-chu');
 })->name('trang-chu');
 
+<<<<<<< HEAD
+Route::get('khuyen-mai', function () {
+    return view('khuyen-mai');
+});
+Route::get('chiTiet-km', function () {
+    return view('chiTiet-km');
+});
+=======
 Route::get('sinh_nhat', function () {
     return view('sinh_nhat');
 })->name('sinh_nhat');
@@ -61,3 +69,4 @@ Route::get('/trangchitietleft', function () {
 
 
 
+>>>>>>> 5d733362a96b116747a063e89a162c9b02471ee4
