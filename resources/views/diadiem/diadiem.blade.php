@@ -13,7 +13,7 @@
 		<!-- section a -->
 		<div class="section-a">
 			<div class="tab-list">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<ul class="nav nav-tabs nav-tabs-mien" id="myTab" role="tablist">
 				<li class="nav-item">
 					<a class="nav-link nav-link-mien" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">MIỀN NAM</a>
 				</li>
@@ -235,11 +235,11 @@
 	<!-- end section-img -->
 	<div class="container">
 		<div class="row text-center">
-			<p class="text">Để được hướng dẫn cụ thể về các dịch vụ tổ chức tiệc sinh nhật, tiệc thiếu nhi, hoạt động ngoại khóa, sự kiện tài trợ… Quý phụ huynh vui lòng gọi Hotline của trung tâm muốn tổ chức sự kiện. Các nhân viên của chúng tôi sẽ tư vấn và báo giá cho quý vị.
+			<p class="text-diadiem">Để được hướng dẫn cụ thể về các dịch vụ tổ chức tiệc sinh nhật, tiệc thiếu nhi, hoạt động ngoại khóa, sự kiện tài trợ… Quý phụ huynh vui lòng gọi Hotline của trung tâm muốn tổ chức sự kiện. Các nhân viên của chúng tôi sẽ tư vấn và báo giá cho quý vị.
 			</p>
 			<div class="col-lg-12 btn-uudai">
 			<a class="link-uudai" href="https://tiniworld.com/vi/tiec-cho-be/">
-				<i class="vc_btn3-icon fa fa-gift"></i>
+				<i class="vc_btn3-icon fa fa-gift fa-git-diadiem"></i>
 				ƯU ĐÃI ĐẶT TIỆC SINH NHẬT
 			</a>
 			</div>	
