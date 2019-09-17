@@ -42,7 +42,7 @@ Route::get('/ve', function () {
     return view('vulon.ve');
 });
 
-=======
+
 Route::get('khuyen-mai', function () {
     return view('khuyen-mai');
 });

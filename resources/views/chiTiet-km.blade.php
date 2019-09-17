@@ -1,12 +1,11 @@
-<@extends('master-layout')
+@extends('master-layout')
 @section('title')
 	CHI TIẾT KHUYẾN MẠI
 @endsection
 @section('content')
 
     <link rel="stylesheet" href="{{asset('css/chiTiet-km.css')}}">
-</head>
-<body>
+
     <div id="content" class="site-content" style="padding-bottom: 729px;">
         <div class="page-top clearfix custom-header ">
             <div class="container header-image">
@@ -162,5 +161,3 @@
         </div><!-- #primary -->
     </div>
     @endsection
-</body>
-</html>
