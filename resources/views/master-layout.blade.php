@@ -13,7 +13,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    
+    <link rel="stylesheet" href="{{asset('css/vu.css')}}">
+    <link rel="stylesheet" href="{{asset('css/right.css')}}">
+    <link rel="stylesheet" href="{{asset('css/member.css')}}">
+    <link rel="stylesheet" href="{{asset('css/vetiniword.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ve.css')}}">
 
     @yield('css')
 

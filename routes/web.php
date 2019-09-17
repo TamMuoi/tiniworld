@@ -19,3 +19,25 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('trang-chu');
 })->name('trang-chu');
+
+Route::get('/bantin', function () {
+    return view('vulon.vu');
+});
+
+Route::get('/right', function () {
+    return view('trangchitietleft');
+});
+
+
+
+Route::get('/member', function () {
+    return view('vulon.member');
+});
+Route::get('/vetini', function () {
+    return view('vulon.vetiniword');
+});
+
+
+Route::get('/ve', function () {
+    return view('vulon.ve');
+});
