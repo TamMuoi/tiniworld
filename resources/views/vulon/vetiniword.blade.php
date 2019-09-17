@@ -1,5 +1,7 @@
 @extends('master-layout')
-
+@section('css') 
+<link rel="stylesheet" href="{{asset('css/vetiniword.css')}}">
+@endsection
 @section('content')
 
 
