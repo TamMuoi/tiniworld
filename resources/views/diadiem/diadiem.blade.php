@@ -1,4 +1,4 @@
-@extends('master-layout')
+
 @section('content')
 <div class="main">
 	<div class="container-fluid">
