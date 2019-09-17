@@ -11,7 +11,9 @@
                 <h1 class="custom-header-title dark-title " style="color:#1e73be;">
                 THẺ TINI MEMBERSHIP                
             </h1>
+            <div class="thanhke">
             <hr class="divider my-4">
+            </div>
             </div>
         </div>
     </div>

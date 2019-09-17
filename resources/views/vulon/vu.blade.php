@@ -1,15 +1,15 @@
 @extends('master-layout')
 @section('content')
 
-        <div class="container header-image">
-        <div class="row">
-            <div class="col-lg-12 align-self-end">
-                <h1 class="custom-header-title dark-title " style="color:#1e73be;">
-                    Tin tiNi                </h1>
-                    <hr class="divider my-4">
-            </div>
-        </div>
-    </div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<h1 class="title-tieude1 text-center">
+            QUYỀN LỢI THÀNH VIÊN       
+			</h1>
+		</div>
+	</div>
+</div>
 
 
     <section class="latest-news-area" id="latest">

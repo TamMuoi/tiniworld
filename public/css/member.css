@@ -1,3 +1,14 @@
+
+.tieude1::after{
+  content: '';
+    background-color: #ffd823;
+    display: block;
+    margin: 1rem auto 0 auto;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+
 img.thanhvien{
     display: block;
     margin-left: auto;

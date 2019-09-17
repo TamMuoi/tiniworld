@@ -1,23 +1,23 @@
 @extends('master-layout')
 @section('content')
-
-<div class="container header-image">
-        <div class="row">
-            <div class="col-lg-12 align-self-end">
-                <h1 class="custom-header-title dark-title " style="color:#1e73be;">
-                THẺ TINI MEMBERSHIP                
-            </h1>
-            <hr class="divider my-4">
-            </div>
-        </div>
-    </div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<h1 class="title-tieude1 text-center">
+            THẺ TINI MEMBERSHIP        
+			</h1>
+		</div>
+	</div>
+</div>
 
 
-
-    <div class="container">			
+ <div class="container">			
     <article id="post-3649" class="post-3649 page type-page status-publish hentry">
 	    <div class="entry-content">
-		<div class="vc_row wpb_row vc_row-fluid vc_custom_1477331881487"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper">
+		<div class="vc_row wpb_row vc_row-fluid vc_custom_1477331881487">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
 	<div class="wpb_text_column wpb_content_element ">
 		<div class="wpb_wrapper">
             <p style="text-align: center;">
@@ -61,12 +61,15 @@
 
 
 
-        <div class="col-lg-12 align-self-end">
-                <h1 class="custom-header-title dark-title " style="color:#1e73be;">
-                QUYỀN LỢI THÀNH VIÊN                
-            </h1>
-            <hr class="divider my-4">
-            </div>
+        <div class="container">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<h1 class="title-tieude1 text-center">
+            QUYỀN LỢI THÀNH VIÊN       
+			</h1>
+		</div>
+	</div>
+</div>
 
 
 
@@ -108,7 +111,7 @@
 
 
 
-    <div class="row">
+    <div class="row col-lg-12">
         
     
 	<div class="wpb_text_column wpb_content_element ">
@@ -138,6 +141,8 @@
 	</div>
 </div>
 </div>
+
+
 </div><br><br><br><br><br>
 
 
@@ -151,64 +156,20 @@
 
 		</div>
 	</div>
-</div></div></div><br><br><br><br><br>
+</div></div></div><br>
 
 <section class="slider">
 <div class=" row">
     <div class="col-lg-6 nut">
         <a href="" class="btn btn-half">Tra cứu danh sách các trung tâm tiNiWorld</a>
-    </div><br><br><br><br><br>
+    </div><br><br>
     <div class="col-lg-6 nut">
         <a href="" class="btn btn-full">Các câu hỏi thường gặp về thẻ</a>
     </div> 
 </div>
   </section>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
     </div>
 
