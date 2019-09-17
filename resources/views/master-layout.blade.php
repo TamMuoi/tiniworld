@@ -13,6 +13,14 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+    <link rel="stylesheet" href="{{asset('css/vu.css')}}">
+    <link rel="stylesheet" href="{{asset('css/right.css')}}">
+    <link rel="stylesheet" href="{{asset('css/member.css')}}">
+    <link rel="stylesheet" href="{{asset('css/vetiniword.css')}}">
+    <link rel="stylesheet" href="{{asset('css/ve.css')}}">
+
     <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
@@ -26,9 +34,11 @@
     <link rel="stylesheet" href="{{ asset('css/tin.css') }}">
     
     
+>>>>>>> 31934e9434ca5bc29ad13a7aca0be94eefd1755c
 
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}"> 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
+
 
     @yield('css')
 
