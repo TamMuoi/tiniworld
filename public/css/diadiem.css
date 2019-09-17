@@ -15,7 +15,7 @@ body {
 .btn{
 	margin-top: 0px !important;
 }
-.nav-tabs{
+.nav-tabs-mien{
 	border: none;
 	background: #f8f8f8;
 	width: 286px;
@@ -197,7 +197,7 @@ input.btn.btn-full.btn-diadiem:hover{
     opacity: 1;
   }
 }
-.text{
+.text-diadiem{
 	margin-top:50px;
 	padding: 0 135px;
 }
@@ -213,7 +213,7 @@ input.btn.btn-full.btn-diadiem:hover{
 	color: #fff;
 	background: #5f9434;
 }
-.fa-gift{
+.fa-gift-diadiem{
 	font-size: 14px;
 }
 .btn{
