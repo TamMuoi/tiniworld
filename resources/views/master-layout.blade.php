@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
     <link rel="stylesheet" href="{{asset('css/chiTiet-km.css')}}">
     <link rel="stylesheet" href="{{asset('css/khuyen-mai.css')}}">
-    <link rel="stylesheet" href="{{asset('css/diadiem.css')}}">
+ 
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/tin_tini.css') }}">
