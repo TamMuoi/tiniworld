@@ -1,4 +1,7 @@
 @extends('master-layout')
+@section('css') 
+<link rel="stylesheet" href="{{asset('css/vu.css')}}">
+@endsection
 @section('content')
 
 <div class="container">
