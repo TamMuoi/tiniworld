@@ -2,7 +2,7 @@
   <div class="container">
     <!-- menu -->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><img src="{{ asset('images/logo/logo-website.png') }}" alt="" class="logo"></a>
+      <a class="navbar-brand" href="{{ route('trang-chu') }}"><img src="{{ asset('images/logo/logo-website.png') }}" alt="" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto d-flex justify-content-center align-items-center justify-content-around">
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-truck" style="color: #c00;"></i> <br>Địa điểm</a>
+            <a class="nav-link" href="{{ route('diadiem') }}"><i class="fas fa-truck" style="color: #c00;"></i> <br>Địa điểm</a>
             <div class="sub-menu">
               <ul>
                 <li><a href="#">TP Hồ Chí Minh</a></li>
@@ -30,7 +30,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-grin-hearts" style="color: #2ecc71;"></i><br>Tiệc sinh nhật</a>
+            <a class="nav-link" href="{{ route('sinh_nhat') }}"><i class="fas fa-grin-hearts" style="color: #2ecc71;"></i><br>Tiệc sinh nhật</a>
              <div class="sub-menu">
               <ul>
                 <li><a href="#">Tiệc sinh nhật 1</a></li>
@@ -50,10 +50,10 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-lightbulb" style="color: #d35400;"></i><br>Tin tini</a>
+            <a class="nav-link" href="{{ route('tin_tini') }}"><i class="fas fa-lightbulb" style="color: #d35400;"></i><br>Tin tini</a>
             <div class="sub-menu">
               <ul>
-                <li><a href="#">Tini TV</a></li>
+                <li><a href="{{ route('tin_tv') }}">Tini TV</a></li>
                 
               </ul>
           </li>

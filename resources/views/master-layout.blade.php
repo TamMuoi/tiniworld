@@ -13,10 +13,11 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
-
-
+    <link rel="stylesheet" href="{{asset('css/chiTiet-km.css')}}">
+    <link rel="stylesheet" href="{{asset('css/khuyen-mai.css')}}">
     <link rel="stylesheet" href="{{asset('css/diadiem.css')}}">
 
 
@@ -26,6 +27,8 @@
     
     
 
+    <link rel="stylesheet" href="{{ asset('css/animate.css') }}"> 
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 
     @yield('css')
 
@@ -34,9 +37,10 @@
     @include('header')
     @yield('content')
     @include('footer')
-
+    
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="{{asset('')}}layout/js/jquery-1.11.1.min.js"></script>
     <script src="{{ asset('library/jquery/jquery-3.4.1.min.js') }}"></script>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
     <script type="text/javascript" src="{{ asset('library/OwlCarousel2/owl.carousel.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jssor.slider-27.5.0.min.js') }}"></script>

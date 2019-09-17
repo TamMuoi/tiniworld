@@ -3,6 +3,7 @@
 	TIN TV
 @endsection
 @section('content')
+
 <body>
     <div class="page-top clearfix custom-header ">
         <div class="container header-image">
@@ -225,7 +226,7 @@
           }
         </script></p>
         <div id="___ytsubscribe_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 174px; height: 48px;">
-            <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 174px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 48px;    padding-top: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1568256986595" name="I0_1568256986595" src="https://www.youtube.com/subscribe_embed?usegapi=1&amp;channelid=UCOGiyClKZkGcTdAzSFg5zCQ&amp;layout=full&amp;count=default&amp;origin=https%3A%2F%2Ftiniworld.com&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.vi.X-97V6KC4to.O%2Fam%3DwQE%2Fd%3D1%2Frs%3DAGLTcCOC0_TT6Ehi3FB4NEUHD9nTKN8uEg%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conytevent%2Conload&amp;id=I0_1568256986595&amp;_gfid=I0_1568256986595&amp;parent=https%3A%2F%2Ftiniworld.com&amp;pfname=&amp;rpctoken=42449351" data-gapiattached="true" __idm_frm__="101"></iframe></div>
+            <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 174px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 48px;    padding-top: 0px;" tabindex="0" vspace="0" width="100%" id="I0_1568256986595" name="I0_1568256986595" src="https://www.youtube.com/subscribe_embed?usegapi=1&amp;channelid=UCOGiyClKZkGcTdAzSFg5zCQ&amp;layout=full&amp;count=default&amp;origin=https%3A%2F%2Ftiniworld.com&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.vi.X-97V6KC4to.O%2Fam%3DwQE%2Fd%3D1%2Frs%3DAGLTcCOC0_TT6Ehi3FB4NEUHD9nTKN8uEg%2Fm%3D__features__#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conytevent%2Conload&amp;id=I0_1568256986595&amp;_gfid=I0_1568256986595&amp;parent=https%3A%2F%2Ftiniworld.com&amp;pfname=&amp;rpctoken=42449351" data-gapiattached="true" __idm_frm__="101"></iframe></div>
         
                 </div>
             </div>
@@ -234,3 +235,4 @@
 </body>
 </html>
 @endsection
+</html>
