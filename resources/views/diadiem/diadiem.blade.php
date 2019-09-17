@@ -1,3 +1,4 @@
+
 @extends('master-layout')
 @section('title')
 	Địa điểm
@@ -5,6 +6,7 @@
 @section('css') 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/diadiem.css') }}">
 @endsection
+
 @section('content')
 <div class="main">
 	<div class="container-fluid">
