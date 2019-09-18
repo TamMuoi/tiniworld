@@ -62,7 +62,7 @@
 			<div class="row no-gutters">
 				<!-- Bà Triệu -->
 				<div class="portfolio rotate-in-center">
-					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
+					<a class="portfolio-box" href="{{Route('trangchitiet')}}">
 						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/batrieu.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address ">Địa chỉ : Tầng 5, tòa tháp B – TTTM Vincom Center Bà Triệu, 91 Bà Triệu, phường Lê Đại Hành, quận Hai Bà Trưng, Tp Hà Nội.<br/>
@@ -72,15 +72,15 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/kham-pha-2-tiniworld-moi-toanh-tai-vincom-plaza-ngo-quyen-da-nang-va-vincom-ba-trieu-hn/">tiNiWorld Vincom Center Bà Triệu </a></strong>
+								<strong><a href="{{Route('trangchitiet')}}">tiNiWorld Vincom Center Bà Triệu </a></strong>
 							</p>
 						</div>
 					</a>
 				</div>
 				<!-- Ngô Quyền -->
 				<div class="portfolio rotate-in-center">
-					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
-						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/ngoquyen.jpg')}}">
+					<a class="portfolio-box" href="{{Route('trangchitiet')}}">
+						<img class="img-fuild img-diadiem" src="{{asset('images/diadiem/ngoquyen.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 3 – TTTM Vincom Plaza Ngô Quyền, 910A Ngô Quyền, Q. Sơn Trà, Tp. Đà Nẵng<br/>
 							Hotline : 0901 317 636<br/>
@@ -89,7 +89,7 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/kham-pha-2-tiniworld-moi-toanh-tai-vincom-plaza-ngo-quyen-da-nang-va-vincom-ba-trieu-hn/">tiNiWorld Vincom Plaza Ngô Quyền</a></strong>
+								<strong><a href="{{Route('trangchitiet')}}">tiNiWorld Vincom Plaza Ngô Quyền</a></strong>
 							</p>
 						</div>
 					</a>
@@ -97,7 +97,7 @@
 				<!-- Vinh --> 
 				<div class="portfolio rotate-in-center">
 					<a class="portfolio-box" href="{{Route('tiniworldvinh')}}">
-						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/Vinh.jpg')}}">
+						<img class="img-fuild img-diadiem" src="{{asset('images/diadiem/Vinh.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 2, TTTM Hoa Sen, Số 69 Hồ Tùng Mậu, Phường Trường Thi, Thành Phố Vinh, Tỉnh Nghệ An<br/>
 							Hotline : 0901 422 9866<br/>
@@ -106,7 +106,7 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/thanh-pho-vinh-bung-no-voi-san-choi-tuoi-tho-tiniworld/">tiNiWorld Vinh Centre</a></strong>
+								<strong><a href="{{Route('tiniworldvinh')}}">tiNiWorld Vinh Centre</a></strong>
 							</p>
 						</div>
 					</a>
@@ -123,7 +123,7 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/kham-pha-2-tiniworld-moi-toanh-tai-vincom-plaza-ngo-quyen-da-nang-va-vincom-ba-trieu-hn/">tiNiWorld Vincom Plaza Long Biên</a></strong>
+								<strong><a href="{{Route('tiniworldlongbien')}}">tiNiWorld Vincom Plaza Long Biên</a></strong>
 							</p>
 						</div>
 					</a>
@@ -140,14 +140,14 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/kham-pha-san-choi-tuoi-tho-tini-vincom-nam-long-quan-7/">tiNiWorld Crescent Mall</a></strong>
+								<strong><a href="{{Route('tiniworldthu50')}}">tiNiWorld Crescent Mall</a></strong>
 							</p>
 						</div>
 					</a>
 				</div>
 				<!-- aaa -->
 				<div class="portfolio rotate-in-top">
-					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
+					<a class="portfolio-box" href="{{Route('trangchitiet')}}">
 						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/batrieu.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address ">Địa chỉ : Tầng 5, tòa tháp B – TTTM Vincom Center Bà Triệu, 91 Bà Triệu, phường Lê Đại Hành, quận Hai Bà Trưng, Tp Hà Nội.<br/>
@@ -157,7 +157,7 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/kham-pha-2-tiniworld-moi-toanh-tai-vincom-plaza-ngo-quyen-da-nang-va-vincom-ba-trieu-hn/">tiNiWorld Vincom Center Bà Triệu </a></strong>
+								<strong><a href="{{Route('trangchitiet')}}">tiNiWorld Vincom Center Bà Triệu </a></strong>
 							</p>
 						</div>
 					</a>
@@ -174,7 +174,7 @@
 						</div>
 						<div class="link">
 							<p>
-								<strong><a href="https://tiniworld.com/vi/kham-pha-san-choi-tuoi-tho-tini-vincom-nam-long-quan-7/">tiNiWorld Crescent Mall</a></strong>
+								<strong><a href="{{Route('tiniworldthu50')}}">tiNiWorld Crescent Mall</a></strong>
 							</p>
 						</div>
 					</a>
@@ -198,7 +198,7 @@
 				</div>
 				<!-- Long Biên -->
 				<div class="portfolio rotate-in-top">
-					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
+					<a class="portfolio-box" href="{{Route('trangchitiet')}}">
 						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/ngoquyen.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 3 – TTTM Vincom Plaza Ngô Quyền, 910A Ngô Quyền, Q. Sơn Trà, Tp. Đà Nẵng<br/>

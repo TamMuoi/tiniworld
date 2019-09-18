@@ -24,9 +24,9 @@ Route::get('/bantin', function () {
     return view('vulon.vu');
 })->name('bantin');
 
-Route::get('/right', function () {
-    return view('trangchitietleft');
-})->name('right');
+Route::get('/trangchitiet', function () {
+    return view('diadiem.trangchitiet');
+})->name('trangchitiet');
 
 
 
@@ -65,9 +65,6 @@ Route::get('/diadiem', function () {
     return view('diadiem.diadiem');
 })->name('diadiem');
 
-Route::get('/trangchitietleft', function () {
-    return view('diadiem.trangchitietleft');
-})->name('trangchitietleft');
 
  Route::get('/tiniworldthu50', function () {
      return view('diadiem.tiniworldthu50');

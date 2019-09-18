@@ -88,6 +88,9 @@
 			</div>
 		</nav>
 		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			@include('aside-right')
+		</div>
 	
 	</div>
 </div>

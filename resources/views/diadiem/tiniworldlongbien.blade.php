@@ -17,7 +17,7 @@
 </div>
 <div class="container">
 	<div class="row">
-		<div class="clearfix col-lg-8 col-md-8 col-sm-8 ">
+		<div class="clearfix col-lg-8 col-md-8 col-sm-8">
 			<img class="img-fluid img-chitiet"src="{{asset('images/chitietleft/tiniLongBien.jpg')}}">
 			<p class="title-noidung">Giải nhiệt “cơn khát” sân chơi hè cho trẻ với mô hình tiNiWorld hoàn toàn mới tại<strong style="color: #0000ff"> tầng 4 – TTTM Vincom Plaza Long Biên, Hà Nội </strong>vào ngày 29/6/2019 với giá cực kỳ hấp dẫn chưa từng có.
 			</p>
@@ -86,6 +86,9 @@
 				<i class="fa fa-chevron-right"></i>
 			</div>
 		</nav>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			@include('aside-right')
 		</div>
 	
 	</div>
