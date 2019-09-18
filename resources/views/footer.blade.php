@@ -56,7 +56,7 @@
 
 <div class="container-flui" style="position : relative">
     <div class="box-up">
-        <div id="contact" hidden>
+        <div id="contact-socical" hidden>
             <a href="#">
                 <div class="box-up-item">
                     <a href="#"><img src="images/mail-icon.png" alt=""></a>
@@ -86,11 +86,11 @@
 <script type="text/javascript">
     function showcontact() {
         //var contact= document.getElementById('contact');
-        if($('#contact').prop('hidden')===true){
-            document.getElementById('contact').removeAttribute('hidden');
+        if($('#contact-socical').prop('hidden')===true){
+            document.getElementById('contact-socical').removeAttribute('hidden');
         }
         else {
-            $('#contact').prop('hidden', true);
+            $('#contact-socical').prop('hidden', true);
         }
     }
 </script>
