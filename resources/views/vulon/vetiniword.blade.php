@@ -1,4 +1,8 @@
 @extends('master-layout')
+
+@section('title')
+    Về tiNiWorld
+@endsection
 @section('css') 
 <link rel="stylesheet" href="{{asset('css/vetiniword.css')}}">
 @endsection
@@ -8,7 +12,7 @@
 <div class="container header-image">
         <div class="row">
             <div class="col-lg-12 align-self-end">
-                <h1 class="custom-header-title dark-title " style="color:#1e73be;">
+                <h1 class="custom-header-title dark-title text-center" style="color:#1e73be;">
                 Về tiNiWorld                
             </h1>
             <hr class="divider my-4">

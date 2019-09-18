@@ -17,7 +17,7 @@
 </div>
 <div class="container">
 	<div class="row">
-		<div class="clearfix col-lg-8 col-md-8 col-sm-8 ">
+		<div class="clearfix col-lg-8 col-md-8 col-sm-8">
 			<img class="img-fluid img-chitiet"src="{{asset('images/chitietleft/batrieu.jpg')}}">
 			<p class="title-noidung">tiNiWorld chính thức đưa vào hoạt động 2 trung tâm mới toanh, tọa lạc tại thành phố biển nổi tiếng Đà Nẵng và thủ đô Hà Nội từ ngày 30 & 31/8/2019
 			</p>
@@ -72,6 +72,9 @@
 				<i class="fa fa-chevron-right"></i>
 			</div>
 		</nav>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			@include('aside-right')
 		</div>
 	
 	</div>

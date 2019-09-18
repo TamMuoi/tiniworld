@@ -1,4 +1,9 @@
 @extends('master-layout')
+
+@section('title')
+    Tini Membership
+@endsection
+
 @section('css') 
 <link rel="stylesheet" href="{{asset('css/member.css')}}">
 @endsection
@@ -175,6 +180,7 @@
 </div>
     </div>
     </div>
+    </div></div></div></div></div></article></div>
 
 
 @endsection
