@@ -13,10 +13,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.carousel.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('library/OwlCarousel2/owl.theme.default.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}"> 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
-
 
     @yield('css')
 
@@ -25,9 +23,7 @@
     @include('header')
     @yield('content')
     @include('footer')
-    
-
-  
+       
     <script src="{{ asset('library/jquery/jquery-3.4.1.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('library/OwlCarousel2/owl.carousel.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/jssor.slider-27.5.0.min.js') }}"></script>
@@ -36,6 +32,7 @@
     <script src="{{ asset('js/wow.js') }}"></script>
     <script src="https://kit.fontawesome.com/d2f7a09671.js"></script>
     <script type="text/javascript" src="{{ asset('js/extends-js.js') }}"></script>
+    
     @yield('js')
 </body>
 </html>
