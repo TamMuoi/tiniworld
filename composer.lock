@@ -2837,6 +2837,8 @@
         {
             "name": "vlucas/phpdotenv",
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
             "version": "v3.6.0",
             "source": {
                 "type": "git",
@@ -2848,6 +2850,7 @@
                 "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/1bdf24f065975594f6a117f0f1f6cabf1333b156",
                 "reference": "1bdf24f065975594f6a117f0f1f6cabf1333b156",
 =======
+>>>>>>> 5d733362a96b116747a063e89a162c9b02471ee4
             "version": "v3.5.0",
             "source": {
                 "type": "git",
@@ -2858,7 +2861,10 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/95cb0fa6c025f7f0db7fc60f81e9fb231eb2d222",
                 "reference": "95cb0fa6c025f7f0db7fc60f81e9fb231eb2d222",
+<<<<<<< HEAD
+=======
 >>>>>>> 760d1b77b41b3c29a74673118c95ce831de17145
+>>>>>>> 5d733362a96b116747a063e89a162c9b02471ee4
                 "shasum": ""
             },
             "require": {
@@ -2873,10 +2879,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+                    "dev-master": "3.5-dev"
+=======
+<<<<<<< HEAD
                     "dev-master": "3.6-dev"
 =======
                     "dev-master": "3.5-dev"
 >>>>>>> 760d1b77b41b3c29a74673118c95ce831de17145
+>>>>>>> 5d733362a96b116747a063e89a162c9b02471ee4
                 }
             },
             "autoload": {
@@ -2907,10 +2917,14 @@
                 "environment"
             ],
 <<<<<<< HEAD
+            "time": "2019-08-27T17:00:38+00:00"
+=======
+<<<<<<< HEAD
             "time": "2019-09-10T21:37:39+00:00"
 =======
             "time": "2019-08-27T17:00:38+00:00"
 >>>>>>> 760d1b77b41b3c29a74673118c95ce831de17145
+>>>>>>> 5d733362a96b116747a063e89a162c9b02471ee4
         }
     ],
     "packages-dev": [

@@ -1,0 +1,85 @@
+.custom-header-title, .page-title .entry-title {
+    text-align: center;
+    padding: 3rem 2rem;
+    font-size: 26px;
+    color: #1e73be;
+}
+.custom-header-title, .page-title .entry-title {
+    text-align: center;
+    padding: 3rem 2rem;
+    font-size: 26px;
+}
+.custom-header-title::after, .widget-title::after {
+    content: '';
+    display: block;
+    margin: 2rem auto 0 auto;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+}
+.sidebar-right .widget-title::after, .custom-header-title::after, .widget-title::after {
+    background-color: #ffd823;
+}
+.vc_row.vc_column-gap-30 > .vc_column_container {
+    padding: 12px 80px;
+}
+.vc_custom_heading a, .vc_custom_heading a:hover, .vc_custom_heading a:focus, .vc_custom_heading a:visited {
+    color: #704f32;
+}
+.vc_gitem_row {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0px;
+    padding: inherit;
+    box-sizing: border-box;
+}
+.vc_gitem_row .vc_gitem-col {
+    box-sizing: border-box;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 315px;
+}
+.ztl-masonry .vc_gitem-post-data {
+    font-size: 15px;
+}
+.ztl-masonry .vc_gitem-post-data {
+    font-size: 15px;
+}
+.ztl-masonry h4 {
+    font-size: 24px;
+    line-height: 1.4;
+}
+.entry-content h4, .comment-content h4 {
+    margin: 1.5rem 0;
+}
+.ztl-masonry p {
+    font-size: 16px;
+    color: #000;
+}
+.vc_btn3-container {
+    display: block;
+    margin-bottom: 21.73913043px;
+    max-width: 100%;
+}
+.ztl-masonry .vc_masonry_grid a.read-more {
+    display: none;
+}
+.vc_btn3-container {
+    text-align: center;
+    margin-top: 25px;
+}
+.vc_btn3.vc_btn3-color-blue, .vc_btn3.vc_btn3-color-blue.vc_btn3-style-flat {
+    color: #ffffff;
+    background-color: #5472d2;
+    border-radius: 5px;
+}
+.vc_btn3.vc_btn3-size-md {
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

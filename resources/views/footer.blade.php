@@ -51,5 +51,55 @@
 				</div>
 			</div>
 		</div>
-	</div> <!-- end footer-bottom-area -->	
-</footer>
+	</div> <!-- end footer-bottom-area -->		
+</footer> <!-- end footer -->
+
+<div class="container-flui" style="position : relative">
+    <div class="box-up">
+        <div id="contact" hidden>
+            <a href="#">
+                <div class="box-up-item">
+                    <a href="#"><img src="images/mail-icon.png" alt=""></a>
+                </div>
+            </a>
+            <a href="">
+                <div class="box-up-item">
+                    <img src="images/messager-icon.png" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="box-up-item">
+                    <a href="#"><img src="images/phone-icon.png" alt=""></a>
+                </div>
+            </a>
+
+        </div>
+        <a id="showcontact" onclick="showcontact()">
+            <div class="box-up-item bacham">
+                <i class="fas fa-ellipsis-h"></i>
+            </div>
+        </a>
+
+
+    </div>
+</div>
+<script type="text/javascript">
+    function showcontact() {
+        //var contact= document.getElementById('contact');
+        if($('#contact').prop('hidden')===true){
+            document.getElementById('contact').removeAttribute('hidden');
+        }
+        else {
+            $('#contact').prop('hidden', true);
+        }
+    }
+</script>
+
+
+
+
+
+<!-- BACK-TO-TOP -->
+<section class="back-to-top">
+      <div class="back-to-top-button"><i class="fas fa-arrow-up"></i></div>
+</section>

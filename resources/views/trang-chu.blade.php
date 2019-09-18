@@ -1,7 +1,9 @@
 @extends('master-layout')
+
 @section('title')
-	Trang chủ
+	Khu vui chơi
 @endsection
+
 @section('content')
 	<div class="home-wrapper">
 		<!-- Slider -->
@@ -208,19 +210,19 @@
 					<div class="container">
 						<div class="row">						
 							<div class="col-md-3 col-sm-6">
-								<div class="one-circle wow bounceInLeft" data-wow-delay="1s" data-wow-duration="1s">100</div>
+								<div class="one-circle counter wow shake" data-count="1000" data-wow-delay="1s" data-wow-duration="1s" data-wow-iteration = "2">0</div>
 								<div class="one-circle-title">Số trung tâm</div>				
 							</div>
 							<div class="col-md-3 col-sm-6">
-								<div class="one-circle wow rubberBand" data-wow-delay="1s" data-wow-duration="1s" data-wow-iteration = "2">100</div>
+								<div class="one-circle counter wow rubberBand" data-count="1000" data-wow-delay="1s" data-wow-duration="1s" data-wow-iteration = "2">0</div>
 								<div class="one-circle-title">Số nhân viên</div>				
 							</div>
 							<div class="col-md-3 col-sm-6">
-								<div class="one-circle wow rubberBand" data-wow-delay="1s" data-wow-duration="1s" data-wow-iteration = "2">100</div>
+								<div class="one-circle counter wow rubberBand" data-count="1000" data-wow-delay="1s" data-wow-duration="1s" data-wow-iteration = "2">0</div>
 								<div class="one-circle-title">Nụ cười/ngày</div>				
 							</div>
 							<div class="col-md-3 col-sm-6">
-								<div class="one-circle wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">100</div>
+								<div class="one-circle counter wow shake" data-count="1000" data-wow-delay="1s" data-wow-duration="1s" data-wow-iteration = "2">0</div>
 								<div class="one-circle-title">Sự kiện/năm</div>				
 							</div>								
 						</div>
