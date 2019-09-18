@@ -3,8 +3,9 @@
 	Khuyến mại
 @endsection
 @section('content')
+    <link rel="stylesheet" href="{{asset('css/khuyen-mai.css')}}">
 
-<body>
+
     <div class="page-top clearfix custom-header ">
         <div class="container header-image">
             <div class="row">
@@ -401,6 +402,5 @@
             </div>
         </div>                                    
     </main>
-</body>
+
 @endsection
-</html>

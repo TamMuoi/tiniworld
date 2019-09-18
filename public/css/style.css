@@ -433,9 +433,9 @@ section.back-to-top{
 /* CONTACT */
 	.box-up {
     position: fixed;
-    right: 20px;
+    right: 5px;
     z-index: 999;
-	bottom: 20%;
+	bottom: 33%;
 }
 .box-up-item {
     padding: 10px;

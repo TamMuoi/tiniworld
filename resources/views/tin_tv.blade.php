@@ -3,8 +3,8 @@
 	TIN TV
 @endsection
 @section('content')
+ <link rel="stylesheet" href="{{asset('css/tin.css')}}">
 
-<body>
     <div class="page-top clearfix custom-header ">
         <div class="container header-image">
             <div class="row">
@@ -232,7 +232,6 @@
             </div>
         </div>
     </div>
-</body>
-</html>
+
 @endsection
-</html>
+

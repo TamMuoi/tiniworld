@@ -22,32 +22,32 @@ Route::get('/', function () {
 
 Route::get('/bantin', function () {
     return view('vulon.vu');
-});
+})->name('bantin');
 
 Route::get('/right', function () {
     return view('trangchitietleft');
-});
+})->name('right');
 
 
 
 Route::get('/member', function () {
     return view('vulon.member');
-});
-Route::get('/vetini', function () {
+})->name('member');
+Route::get('/vetiniword', function () {
     return view('vulon.vetiniword');
-});
+})->name('vetiniword');
 
 
 Route::get('/ve', function () {
     return view('vulon.ve');
-});
+})->name('ve');
 
 Route::get('khuyen-mai', function () {
     return view('khuyen-mai');
-});
+})->name('khuyen-mai');
 Route::get('chiTiet-km', function () {
     return view('chiTiet-km');
-});
+})->name('chiTiet-km');
 
 Route::get('sinh_nhat', function () {
     return view('sinh_nhat');
