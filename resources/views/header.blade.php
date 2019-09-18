@@ -20,11 +20,11 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-home" style="color: #f1c40f;"></i><br>Khu vui chơi</a>
+            <a class="nav-link" href="{{ route('khuvuichoi') }}"><i class="fas fa-home" style="color: #f1c40f;"></i><br>Khu vui chơi</a>
             <div class="sub-menu">
               <ul>
-                <li><a href="#">Giá vé</a></li>
-                <li><a href="#">Về tiNiWorld</a></li>
+                <li><a href="{{ route('ve') }}">Giá vé</a></li>
+                <li><a href="{{ route('vetiniword') }}">Về tiNiWorld</a></li>
                
               </ul>
             </div>
@@ -40,7 +40,7 @@
             </div>
           </li>
             <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-hotel" style="color: #3498db;"></i><br>Tini membership</a>
+            <a class="nav-link" href="{{ route('member') }}"><i class="fas fa-hotel" style="color: #3498db;"></i><br>Tini membership</a>
             <div class="sub-menu">
               <ul>
                 <li><a href="#">Tini membership 1</a></li>
@@ -58,7 +58,7 @@
               </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-gift" style="color: #16a085;"></i><br>Khuyến mãi</a>
+            <a class="nav-link" href="{{ route('khuyen-mai') }}"><i class="fas fa-gift" style="color: #16a085;"></i><br>Khuyến mãi</a>
           </li>
         </ul>
       </div>

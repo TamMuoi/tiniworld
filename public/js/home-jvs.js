@@ -1,3 +1,5 @@
+// SLIDER
+
 jssor_1_slider_init = function() {
 
              var jssor_1_SlideshowTransitions = [
@@ -158,20 +160,14 @@ jssor_1_slider_init = function() {
 
  jssor_1_slider_init();
 
+// END
 
 jQuery(document).ready(function($) {
-  var vitrimenu=$('.header').offset().top;
+ 
   var vtscroll = $('.why-choose-option').offset().top;
- // console.log(vitrimenu);
+ 
   $(window).scroll(function(event) {
     var vitribody=$('html,body').scrollTop();
-
-    if(vitribody>vitrimenu){
-      $('.header').addClass('fix-area-top');
-    }
-    else{
-      $('.header').removeClass('fix-area-top');
-    }
 
     if(vitribody>=vtscroll){
           $('.counter').each(function() {
@@ -221,26 +217,6 @@ jQuery(document).ready(function($) {
         }
     }
   })
-  // END
-
- // BACK-TO-TOP
-    
-
-  $('.back-to-top').fadeOut();
-  $(window).scroll(function() { 
-
-      if($(window).scrollTop() != 0) { 
-        $('.back-to-top').fadeIn();
-     }else {
-         $('.back-to-top').fadeOut();
-     }
-    });
-  
-  $('.back-to-top').on('click', function(event) {
-    event.preventDefault();
-    $('html,body').animate({scrollTop:0}, 1200);
-  });
-    
   // END
 
 });

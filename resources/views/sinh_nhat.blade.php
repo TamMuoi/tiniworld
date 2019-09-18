@@ -3,22 +3,9 @@
 	SINH NHẬT
 @endsection
 @section('content')
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<link rel="stylesheet" href="{{ asset('css/sinh_nhat.css') }}">
-<link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="{{asset('')}}layout/js/jquery-1.11.1.min.js"></script>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<body>
+<link rel="stylesheet" href="{{ asset('css/sinh_nhat.css') }}">
+
         <div class="page-top clearfix custom-header ">
                 <div class="container header-image">
                     <div class="row">
@@ -332,9 +319,6 @@
                             </div>
                         </div>
                     </div>
-
-      
-</body>
 @endsection
                    
-</body>
+

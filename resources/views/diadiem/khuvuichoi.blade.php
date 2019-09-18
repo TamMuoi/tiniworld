@@ -1,10 +1,12 @@
 @extends('master-layout')
 @section('title')
-Khu vui chơi dành cho trẻ em hiện đại nhất Việt Nam | tiNiWorld
+	Khu vui chơi dành cho trẻ em hiện đại nhất Việt Nam
 @endsection
+
 @section('css') 
 <link rel="stylesheet" type="text/css" href="{{ asset('css/diadiem.css') }}">
 @endsection
+
 @section('content')
 <!-- Tiêu đề -->
 <main>
@@ -23,7 +25,7 @@ Khu vui chơi dành cho trẻ em hiện đại nhất Việt Nam | tiNiWorld
 <div class="container">
 	<div class="row">
 		<div class="col-lg-4">
-			<img class="img-fluid"src="{{asset('images/khuvuichoi/khuvuichoi-1.png')}}">
+			<img class="img-fluid" src="{{asset('images/khuvuichoi/khuvuichoi-1.png')}}">
 		</div>
 		<div class="col-lg-8">
 			<img class="img-fluid"src="{{asset('images/khuvuichoi/khuvuichoi-2.png')}}">
@@ -243,7 +245,7 @@ Khu vui chơi dành cho trẻ em hiện đại nhất Việt Nam | tiNiWorld
 		</div>
 	</div>
 <!-- end -->
-	
+
 </div>
 </main>
 @endsection
