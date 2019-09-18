@@ -61,7 +61,7 @@
 				<!-- Bà Triệu -->
 				<div class="portfolio rotate-in-center">
 					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/batrieu.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/batrieu.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address ">Địa chỉ : Tầng 5, tòa tháp B – TTTM Vincom Center Bà Triệu, 91 Bà Triệu, phường Lê Đại Hành, quận Hai Bà Trưng, Tp Hà Nội.<br/>
 							Hotline : 0906 639 558 <br/>
@@ -78,7 +78,7 @@
 				<!-- Ngô Quyền -->
 				<div class="portfolio rotate-in-center">
 					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/ngoquyen.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/ngoquyen.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 3 – TTTM Vincom Plaza Ngô Quyền, 910A Ngô Quyền, Q. Sơn Trà, Tp. Đà Nẵng<br/>
 							Hotline : 0901 317 636<br/>
@@ -95,7 +95,7 @@
 				<!-- Vinh --> 
 				<div class="portfolio rotate-in-center">
 					<a class="portfolio-box" href="{{Route('tiniworldvinh')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/Vinh.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/Vinh.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 2, TTTM Hoa Sen, Số 69 Hồ Tùng Mậu, Phường Trường Thi, Thành Phố Vinh, Tỉnh Nghệ An<br/>
 							Hotline : 0901 422 9866<br/>
@@ -112,7 +112,7 @@
 				<!-- Long Biên -->
 				<div class="portfolio rotate-in-center">
 					<a class="portfolio-box" href="{{Route('tiniworldlongbien')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/longbien.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/longbien.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 4, TTTM Vincom Plaza Long Biên, phường Việt Hưng, Q. Long Biên, Tp. Hà Nội<br/>
 							Hotline : 0906 605 919<br/>
@@ -129,7 +129,7 @@
 				<!-- Crescent Mall -->
 				<div class="portfolio rotate-in-center">
 					<a class="portfolio-box" href="{{Route('tiniworldthu50')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/crescentmall.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/crescentmall.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : tầng B1 – TTTM Crescent Mall, 101 đường Tôn Dật Tiên, Phường Tân Phú, Quận 7, TP. HCM<br/>
 							Hotline : 0909 370 558<br/>
@@ -146,7 +146,7 @@
 				<!-- aaa -->
 				<div class="portfolio rotate-in-top">
 					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/batrieu.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/batrieu.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address ">Địa chỉ : Tầng 5, tòa tháp B – TTTM Vincom Center Bà Triệu, 91 Bà Triệu, phường Lê Đại Hành, quận Hai Bà Trưng, Tp Hà Nội.<br/>
 							Hotline : 0906 639 558 <br/>
@@ -163,7 +163,7 @@
 				<!-- Ngô Quyền -->
 				<div class="portfolio rotate-in-top">
 					<a class="portfolio-box" href="{{Route('tiniworldthu50')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/crescentmall.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/crescentmall.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : tầng B1 – TTTM Crescent Mall, 101 đường Tôn Dật Tiên, Phường Tân Phú, Quận 7, TP. HCM<br/>
 							Hotline : 0909 370 558<br/>
@@ -180,7 +180,7 @@
 				<!-- Vinh --> 
 				<div class="portfolio rotate-in-top">
 					<a class="portfolio-box" href="https://tiniworld.com/vi/thanh-pho-vinh-bung-no-voi-san-choi-tuoi-tho-tiniworld/">
-						<img class="img-diadiem"src="{{asset('images/diadiem/Vinh.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/Vinh.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 2, TTTM Hoa Sen, Số 69 Hồ Tùng Mậu, Phường Trường Thi, Thành Phố Vinh, Tỉnh Nghệ An<br/>
 							Hotline : 0901 422 9866<br/>
@@ -197,7 +197,7 @@
 				<!-- Long Biên -->
 				<div class="portfolio rotate-in-top">
 					<a class="portfolio-box" href="{{Route('trangchitietleft')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/ngoquyen.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/ngoquyen.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 3 – TTTM Vincom Plaza Ngô Quyền, 910A Ngô Quyền, Q. Sơn Trà, Tp. Đà Nẵng<br/>
 							Hotline : 0901 317 636<br/>
@@ -214,7 +214,7 @@
 				<!-- Crescent Mall -->
 				<div class="portfolio rotate-in-top">
 					<a class="portfolio-box" href="{{Route('tiniworldlongbien')}}">
-						<img class="img-diadiem"src="{{asset('images/diadiem/longbien.jpg')}}">
+						<img class="img-fuild img-diadiem"src="{{asset('images/diadiem/longbien.jpg')}}">
 						<div class="portfolio-box-caption">
 							<p class="address">Địa chỉ : Tầng 4, TTTM Vincom Plaza Long Biên, phường Việt Hưng, Q. Long Biên, Tp. Hà Nội<br/>
 							Hotline : 0906 605 919<br/>
