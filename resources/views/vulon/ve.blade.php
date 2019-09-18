@@ -1,4 +1,7 @@
 @extends('master-layout')
+@section('title')
+    Vé tiNiWorld
+@endsection
 @section('css') 
 <link rel="stylesheet" href="{{asset('css/ve.css')}}">
 @endsection
@@ -11,7 +14,7 @@
 <div class="container header-image">
         <div class="row">
             <div class="col-lg-12 align-self-end">
-                <h1 class="custom-header-title dark-title " style="color:#1e73be;">
+                <h1 class="custom-header-title dark-title text-center" style="color:#1e73be;">
                 THẺ TINI MEMBERSHIP                
             </h1>
             </div>
@@ -20,10 +23,10 @@
 
 
 
-<article id="post-5059" class="post-5059 page type-page status-publish hentry">
-	<div class="entry-content">
+<article id="post-5059" class="post-5059 page type-page status-publish hentry" style="width: 100%;">
+	<div class="entry-content text-center">
 		<p><span style="color: #ff0000;"><strong>Bảng giá vé mới chính thức áp dụng từ ngày 6/5/2019</strong></span></p>
-<table style="height: 1242px; width: 952px;">
+<table style="height: 1242px; width: 952px;" class="mb-5">
 <tbody>
 <tr style="height: 16px;">
 <td style="width: 99px; text-align: center; height: 86px;" rowspan="2"><span style="font-size: 14px; font-family: arial, helvetica, sans-serif;"><strong>Tỉnh/thành phố</strong></span></td>
@@ -478,6 +481,7 @@
 
 </div></div>
 
+</article></div></div>
 
 
 
