@@ -34,15 +34,15 @@
 			</p>
 			<p class="title-noidung">
 				Fanpage: &nbsp;
-				<a href="https://www.facebook.com/tiNiWorld">https://www.facebook.com/tiNiWorld</a>
+				<a class="sub-title" href="https://www.facebook.com/tiNiWorld">https://www.facebook.com/tiNiWorld</a>
 			</p>
 			<p class="title-noidung">
 				Youtube: &nbsp;
-				<a href="https://www.youtube.com/tiNiTV">https://www.youtube.com/tiNiTV</a>
+				<a class="sub-title" href="https://www.youtube.com/tiNiTV">https://www.youtube.com/tiNiTV</a>
 			</p>
 			<p class="title-noidung">
 				Website: &nbsp;
-				<a href="https://tiniworld.com/vi/home/">https://tiniworld.com/vi/home/</a>
+				<a class="sub-title" href="https://tiniworld.com/vi/home/">https://tiniworld.com/vi/home/</a>
 			</p>
 			<p class="title-noidung">
 				Hotline thông tin dịch vụ (9AM-5PM): 0908 040 411

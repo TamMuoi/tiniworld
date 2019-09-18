@@ -1,4 +1,4 @@
-.custom-header-title, .page-title .entry-title {
+/*.custom-header-title, .page-title .entry-title {
     text-align: center;
     padding: 3rem 2rem;
     font-size: 26px;
@@ -50,9 +50,9 @@ Style Attribute {
 .wpb_single_image .vc_box_border.vc_box_border_grey, .wpb_single_image .vc_box_border_circle.vc_box_border_grey {
     background-color: #ebebeb;
 }
-.list-icon ul li .fa {
+.list-icon ul li .fa {*/
     /* position: absolute; */
-    top: 3px;
+   /* top: 3px;
     left: 0px;
     color: #ff7469;
     font-size: 20px;
@@ -135,8 +135,9 @@ element.style {
 .vc_column-inner {
     padding-top: 118px;
     /* padding-left: 158px; */
-}
+/*}
 
 
 
 
+*/

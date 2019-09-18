@@ -1,9 +1,9 @@
 @extends('master-layout')
 @section('title')
-	tiNiworldThu50
+tiNiworldThu50
 @endsection
 @section('css') 
-    <link rel="stylesheet" type="text/css" href="{{ asset('css/diadiem.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/diadiem.css') }}">
 @endsection
 @section('content')
 <div class="container">
@@ -55,7 +55,7 @@
 			<p class="title-noidung">
 				Hotline chương trình ngoại khóa (9AM-5PM): 0906 898 037
 			</p>
-			<div class="post">
+			<div class="post text-center">
 				<div class="date">
 					<span class="posted-on">
 						<i class="far  fa-calendar-alt"></i>
@@ -68,17 +68,17 @@
 				</div>	
 			</div>
 			<nav class="navigation post-navigation">
-			<div class="nav-previous">
-				<i class="fa fa-chevron-left icon-post"></i>
-				<a href="{{route('tiniworldvinh')}}" rel="prev">THÀNH PHỐ VINH “BÙNG NỔ” <BR/> VỚI SÂN CHƠI TUỔI THƠ TINIWORLD</a>
-			</div>
-			<div class="nav-next">
-				<a href="{{route('trangchitietleft')}}"rel="next">KHÁM PHÁ 2 TINIWORLD<br/> MỚI TOANH TẠI VINCOM PLAZA NGÔ QUYỀN, ĐÀ NẴNG VÀ VINCOM BÀ TRIỆU, HN</a>
-				<i class="fa fa-chevron-right"></i>
-			</div>
-		</nav>
+				<div class="nav-previous">
+					<i class="fa fa-chevron-left icon-post 3"></i>
+					<a href="{{route('tiniworldvinh')}}" rel="prev">THÀNH PHỐ VINH “BÙNG NỔ” <BR/> VỚI SÂN CHƠI TUỔI THƠ TINIWORLD</a>
+				</div>
+				<div class="nav-next">
+					<a href="{{route('trangchitietleft')}}"rel="next">KHÁM PHÁ 2 TINIWORLD<br/> MỚI TOANH TẠI VINCOM PLAZA NGÔ QUYỀN, ĐÀ NẴNG VÀ VINCOM BÀ TRIỆU, HN</a>
+					<i class="fa fa-chevron-right"></i>
+				</div>
+			</nav>
 		</div>
-	
+
 	</div>
 </div>
 @endsection
